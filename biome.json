@@ -1,5 +1,8 @@
 {
   "$schema": "https://biomejs.dev/schemas/1.8.3/schema.json",
+  "files": {
+    "ignore": ["tsconfig.*.json"]
+  },
   "formatter": {
     "enabled": true,
     "formatWithErrors": false,
@@ -7,14 +10,12 @@
     "indentWidth": 2,
     "lineEnding": "lf",
     "lineWidth": 120,
-    "attributePosition": "auto",
-    "ignore": ["tsconfig.*.json"]
+    "attributePosition": "auto"
   },
   "organizeImports": { "enabled": true },
   "linter": {
     "enabled": true,
-    "rules": { "recommended": true },
-    "ignore": ["tsconfig.*.json"]
+    "rules": { "recommended": true }
   },
   "javascript": {
     "formatter": {
