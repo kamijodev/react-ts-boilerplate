@@ -1,1 +1,1 @@
-# React + TypeScript + Vite + Biome : Boilerplate
+# React + TypeScript + Vite + Yarn + Biome : Boilerplate
